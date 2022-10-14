@@ -1,9 +1,11 @@
 body {
-    background-color: slategray;
+    background-color: #1d2a40;
+    color: ghostwhite;
+    
 }
 
 h1 {
-    color:black;
+    color:#667677;
     font:x-large;
     font-family: monospace;
 }

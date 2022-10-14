@@ -5,37 +5,11 @@
         <link href="./style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Let's Rip Some Clapprs!</h1>
-        <p>Below this text will be a form to fill in details of a player and add them to a free agent roster.  Free agents can be drafted later during the preseason</p>
+        <a href="./createplayer.html">Create a Player</a>
         <div></div>
-        <form method="POST">
-            <ul>
-                <li>
-                    <label for="name">Player Name:</label>
-                    <input type="text" id="name" name="player_name">
-                </li>
-                <li>
-                    <legend>Preferred Position:</legend>
-                    <lable><input type="radio" name="player_role">Winger</lable>
-                    <label><input type="radio" name="player_role">Center</label>
-                    <label><input type="radio" name="player_role">Defense</label>
-                    <label><input type="radio" name="player_role">Goalie</label>
-                </li>
-                <li>
-                    <label for="flavor">Flavor Text:</label>
-                    <textarea id="flavor" name="player_flavor"></textarea>
-                </li>
-                <li>
-                    <label for="player_num">Number:</label>
-                    <input type="number">
-                </li>
-                <li>
-                    <legend>Handed:</legend>
-                    <label><input type="radio" name="handed"> Left</label>
-                    <label><input type="radio" name="handed"> Right</label>
-                </li>
-            </ul>
-            <button>Create Player</button>
-        </form>
+        <h1>Game Clock:</h1>
+        <span id="current_period">Period 1</span>
+        <span id="game_clock">20:00</span>
     </body>
+    <script src="./timedevents.js"></script>
 </html>

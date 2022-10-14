@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<body>
+    <section class="create-player">
+        <h1>Let's create a player!</h1>
+        <p>Use this form to play god, and spawn a new goon for your enjoyment!</p>
+
+        <form>
+            <div class="input-group">
+                <label for="player_name">Player Name: </label>
+                <input id="player_name" name="player_name" type="text">
+            </div>
+
+            <div class="input-group">
+                <legend>Preferred Position:</legend>
+                <label><input type="radio" name="player_role">Winger</label>
+                <label><input type="radio" name="player_role">Center</label>
+                <label><input type="radio" name="player_role">Defense</label>
+                <label><input type="radio" name="player_role">Goalie</label>
+            </div>
+
+            <div class="input-group">
+                <label for="player_num">Number:</label>
+                <input type="number">
+            </div>
+
+            <div class="input-group">
+                <legend>Handed:</legend>
+                <label><input type="radio" id="lefthanded" name="handed" value="left"> Left</label>
+                <label><input type="radio" id="righthanded" name="handed" value="right"> Right</label>
+            </div>
+
+            <div class="input-group">
+                <label for="flavor">Flavor Text:</label>
+                <textarea id="flavor" name="player_flavor"></textarea>
+            </div>
+
+            <button type="submit">Create Player</button>
+        </form>
+    </section>
+
+    <div class="results">
+        <h2>Player Data:</h2>
+        <pre></pre>
+    </div>
+</body>
+<script src="./script.js"></script>
