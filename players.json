@@ -1,7 +1,98 @@
 {
-    "player_name": "John Legend",
-    "player_role": "Winger",
-    "player_num": "66",
-    "handed": "left",
-    "player_flavor": "It's clobberin' time!"
+    "player_1" : {
+        "player_name": "John Legend",
+        "player_role": "Winger",
+        "player_num": "66",
+        "handed": "left",
+        "player_flavor": "It's clobberin' time!",
+        "player_team" : "1"
+    },
+    "player_2" : {
+        "player_name" : "Sam Smith",
+        "player_role" : "Center",
+        "player_num" : "57",
+        "handed" : "right",
+        "player flavor" : "HUGE HIT",
+        "player_team" : "1"
+    },
+    "player_3" : {
+        "player_name" : "Grendel Oshkosh",
+        "player_role" : "Winger",
+        "player_num" : "6",
+        "handed" : "right",
+        "player flavor" : "B'Gosh!",
+        "player_team" : "1"
+    },
+    "player_4" : {
+        "player_name" : "Tervis Dagner",
+        "player_role" : "Defense",
+        "player_num" : "13",
+        "handed" : "left",
+        "player flavor" : "No Scoring",
+        "player_team" : "1"
+    },
+    "player_5" : {
+        "player_name" : "Gwayne Adkub",
+        "player_role" : "Defense",
+        "player_num" : "35",
+        "handed" : "left",
+        "player flavor" : "RIP IT",
+        "player_team" : "1"
+    },
+    "player_6" : {
+        "player_name" : "Inglo Vandervan",
+        "player_role" : "Goalie",
+        "player_num" : "80",
+        "handed" : "right",
+        "player flavor" : "WALL",
+        "player_team" : "1"
+    },
+    "player_7" : {
+        "player_name" : "Arsson Tarsson",
+        "player_role" : "Winger",
+        "player_num" : "4",
+        "handed" : "left",
+        "player flavor" : "Celly Celly Celly",
+        "player_team" : "2"
+    },
+    "player_8" : {
+        "player_name" : "Blendon Rahimi",
+        "player_role" : "Center",
+        "player_num" : "61",
+        "handed" : "left",
+        "player flavor" : "Pass Pass Pass",
+        "player_team" : "2"
+    },
+    "player_9" : {
+        "player_name" : "Aldor Quar",
+        "player_role" : "Winger",
+        "player_num" : "3",
+        "handed" : "right",
+        "player flavor" : "Get to the Post",
+        "player_team" : "2"
+    },
+    "player_10" : {
+        "player_name" : "Rub Scent",
+        "player_role" : "Defense",
+        "player_num" : "92",
+        "handed" : "left",
+        "player flavor" : "BACK DOOR",
+        "player_team" : "2"
+    },
+    "player_11" : {
+        "player_name" : "Lunker Ponker",
+        "player_role" : "Defense",
+        "player_num" : "90",
+        "handed" : "right",
+        "player flavor" : "SLOT SLOT",
+        "player_team" : "2"
+    },
+    "player_12" : {
+        "player_name" : "Derb Bwenk",
+        "player_role" : "Goalie",
+        "player_num" : "10",
+        "handed" : "left",
+        "player flavor" : "We Save Those",
+        "player_team" : "2"
+    }
 }
